@@ -1,13 +1,24 @@
 ul {
     margin: 0;
-  }
-  ul.dashed {
+}
+
+ul.dashed {
     list-style-type: none;
-  }
-  ul.dashed > li {
+}
+
+ul.dashed>li {
     text-indent: 5px;
-  }
-  ul.dashed > li:before {
+}
+
+ul.dashed>li:before {
     content: "-";
     text-indent: 5px;
-  }
+}
+
+audio {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
